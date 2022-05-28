@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-page {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-page .makeitmid {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.menu-page .image-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.menu-page h1 {
+  color: white;
+}
+
+.menu-page {
+  color: white;
+}
+
+.menu-page .main {
+  display: flex;
+  align-items: center;
+}
+
+.menu-page .menu {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.menu-page .menu .dashed {
+  width: 100px;
+
+  background: #348F50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  height: 2px;
+  margin: 10px;
+}
+
+.menu-page .menus {
+  margin: 90px;
+}
